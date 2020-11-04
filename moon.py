@@ -18,7 +18,7 @@ def multiple_accounts(sender, data):
 with simple.window('Moon Overwatch Leveling Bot'):
     core.set_style_item_spacing(15, 15)
     core.set_style_frame_padding(5, 5)
-    core.add_additional_font('Roboto-Black.ttf', 14)
+    core.add_additional_font('Roboto-Regular.ttf', 14)
 
     core.add_image('logo', 'moon.png')
     core.add_separator()
