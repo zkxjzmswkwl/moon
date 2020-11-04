@@ -12,16 +12,15 @@ def multiple_accounts(sender, data):
     core.add_input_text(
             'Accounts File',
             default_value='accs_to_level.txt',
-            before='Login')
+            before='Login',
+            width=200)
 
 with simple.window('Moon Overwatch Leveling Bot'):
     core.set_style_item_spacing(15, 15)
     core.set_style_frame_padding(5, 5)
-#    core.set_global_font_scale(1.5)
     core.add_additional_font('Roboto-Black.ttf', 14)
-#    core.add_additional_font('Yellowtail-Regular.ttf', 16)
 
-    core.add_text('Moon')
+    core.add_image('logo', 'moon.png')
     core.add_separator()
     
     core.add_input_text(
