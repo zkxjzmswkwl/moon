@@ -25,12 +25,12 @@ with simple.window('Moon Overwatch Leveling Bot'):
     
     core.add_input_text(
             'Account Email',
-            default_value='smurf@cock.li',
+            default_value='tigolbitties@battle.net',
             width=200)
 
     core.add_input_text(
             'Account Password',
-            default_value='mature_password!',
+            default_value='weShouldBuffBrig!69',
             width=200)
     
     core.add_checkbox(
