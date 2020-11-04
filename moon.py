@@ -1,6 +1,3 @@
-import sys
-import spotipy
-import spotipy.util as util
 import dearpygui.core as core
 import dearpygui.simple as simple
 
